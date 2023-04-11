@@ -47,4 +47,8 @@ TOS,Terms Of Service
 EULA,End-User License Agreement
 GDPR,General Data Protection Regulation
 DMCA,Digital Millennium Copyright Act
+<<<<<<< HEAD
 API,Application Programming Interface
+=======
+API,Application Programming Interface
+>>>>>>> refs/remotes/origin/main
