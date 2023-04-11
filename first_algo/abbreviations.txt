@@ -16,7 +16,7 @@ NASA,National Aeronautics and Space Administration
 CIA,Central Intelligence Agency
 FBI,Federal Bureau of Investigation
 IMF,International Monetary Fund
-UNESCO,United Nations Educational, Scientific and Cultural Organization
+UNESCO,United Nations Educational Scientific and Cultural Organization
 IBM,International Business Machines
 UPS,United Parcel Service
 FedEx,Federal Express
@@ -48,4 +48,3 @@ EULA,End-User License Agreement
 GDPR,General Data Protection Regulation
 DMCA,Digital Millennium Copyright Act
 API,Application Programming Interface
-W/, without
