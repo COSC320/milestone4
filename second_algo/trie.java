@@ -79,7 +79,7 @@ public class trie {
     	String keys[]=new String[numAbbrevs];
     	String[] full= new String[numAbbrevs];
     	
-    	File abbreviations=new File("/Users/austin/Documents/COSC320/milestone4/second_algo/abbreviations.txt");
+    	File abbreviations=new File("abbreviations.txt");
 			Scanner in;
 			try {
 				in = new Scanner(abbreviations);
