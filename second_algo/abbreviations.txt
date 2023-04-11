@@ -29,14 +29,12 @@ EOD,End Of Day
 EOM,End Of Month
 KPI,Key Performance Indicator
 ROI,Return On Investment
-B2B,Business-to-Business
-B2C,Business-to-Consumer
 CTR,Click-Through Rate
 SEO,Search Engine Optimization
 SEM,Search Engine Marketing
 SaaS,Software-as-a-Service
 PaaS,Platform-as-a-Service
-IaaS,Infrastructure-as-a-Service
+IAAS,Infrastructure-as-a-Service
 UX,User Experience
 UI,User Interface
 SOW,Statement Of Work
