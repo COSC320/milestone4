@@ -1,0 +1,51 @@
+ASAP,As Soon As Possible
+FAQ,Frequently Asked Questions
+FYI,For Your Information
+RSVP,R'espondez S'il Vous Pla'eet (Please respond)
+ETA,Estimated Time of Arrival
+DIY,Do It Yourself
+VIP,Very Important Person
+GPS,Global Positioning System
+WIFI,Wireless Fidelity
+HTML,Hypertext Markup Language
+VPN,Virtual Private Network
+ATM,Automated Teller Machine 
+NBA,National Basketball Association
+NFL,National Football League
+NASA,National Aeronautics and Space Administration
+CIA,Central Intelligence Agency
+FBI,Federal Bureau of Investigation
+IMF,International Monetary Fund
+UNESCO,United Nations Educational, Scientific and Cultural Organization
+IBM,International Business Machines
+UPS,United Parcel Service
+FedEx,Federal Express
+TNT,Trinitrotoluene
+HRM,Human Resource Management
+CRM,Customer Relationship Management
+CMS,Content Management System
+ERP,Enterprise Resource Planning
+EOD,End Of Day
+EOM,End Of Month
+KPI,Key Performance Indicator
+ROI,Return On Investment
+B2B,Business-to-Business
+B2C,Business-to-Consumer
+CTR,Click-Through Rate
+SEO,Search Engine Optimization
+SEM,Search Engine Marketing
+SaaS,Software-as-a-Service
+PaaS,Platform-as-a-Service
+IaaS,Infrastructure-as-a-Service
+UX,User Experience
+UI,User Interface
+SOW,Statement Of Work
+RFP,Request For Proposal
+RFI,Request For Information
+SLA,Service Level Agreement
+TOS,Terms Of Service
+EULA,End-User License Agreement
+GDPR,General Data Protection Regulation
+DMCA,Digital Millennium Copyright Act
+API,Application Programming Interface
+W/, without
