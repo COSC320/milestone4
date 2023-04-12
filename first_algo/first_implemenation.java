@@ -14,7 +14,7 @@ public class first_implemenation {
         Queue<String> queue = new LinkedList<String>(); // create a queue to store the values
 
         try {
-            Scanner scanner = new Scanner(new File(""));    //input csv file, add name here for the csv file
+            Scanner scanner = new Scanner(new File(""));    //input csv file, add file path here for the csv file
             scanner.nextLine(); // ignore header
 
             while (scanner.hasNextLine()) {
