@@ -38,7 +38,7 @@ public class trie_graph {
         Queue<String> queue = new LinkedList<String>(); // create a queue to store the values
     
         try {
-            scanner = new Scanner(new File("piss.csv"));    //input csv file, change name here for the csv file
+            scanner = new Scanner(new File("file.csv"));    //input csv file, change name here for the csv file
             scanner.nextLine(); // ignore header
     
             while (scanner.hasNextLine()) {
@@ -48,7 +48,6 @@ public class trie_graph {
                 if (values.length > 3) {
                     String abbreviation = values[3];
                     String meaning = values[4];
-                    insert(root, abbreviation, meaning);
                     queue.add(abbreviationReplacer(abbreviation)); // add the value to the queue and replace abbreviations
                 }
             }
@@ -148,4 +147,4 @@ public class trie_graph {
         return word; // return the original word if abbreviation not found
     }
     
-} 
+}
