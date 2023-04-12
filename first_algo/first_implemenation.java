@@ -7,14 +7,14 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class App {
+public class first_implemenation {
 
     public static void main(String[] args) {
 
         Queue<String> queue = new LinkedList<String>(); // create a queue to store the values
 
         try {
-            Scanner scanner = new Scanner(new File("file.csv"));    //input csv file, change name here for the csv file
+            Scanner scanner = new Scanner(new File(""));    //input csv file, change name here for the csv file
             scanner.nextLine(); // ignore header
 
             while (scanner.hasNextLine()) {
@@ -56,7 +56,7 @@ public class App {
 
     static String abbreviationReplacerHelper(String word) {
         try {
-            Scanner scanner = new Scanner(new File("abbreviations.txt"));
+            Scanner scanner = new Scanner(new File("")); //input abbreviations.txt 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] abbrev = line.split(",");

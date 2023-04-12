@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class trie {
+public class trie_graph {
     
     static class TrieNode {
         boolean isEndOfWord;
@@ -38,7 +38,7 @@ public class trie {
         Queue<String> queue = new LinkedList<String>(); // create a queue to store the values
     
         try {
-            scanner = new Scanner(new File(""));    //input csv file, add file path
+            scanner = new Scanner(new File(""));    //input csv file, change name here for the csv file
             scanner.nextLine(); // ignore header
     
             while (scanner.hasNextLine()) {
@@ -60,10 +60,15 @@ public class trie {
     
         // write output to file
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv"));   //output with meanings of abbreviations
+            
+            BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv"));   //output with values for graph
+            writer.write("String length, Word Count, Execution Time\n");
             while (!queue.isEmpty()) {
+                long startTime = System.nanoTime(); // start time of processing queue
                 String output = queue.remove();
-                writer.write(output);
+                int wordCount = output.split("\\s+").length; // count number of words
+                int length = output.length(); // get length of string
+                writer.write(length + "," + wordCount + "," + (System.nanoTime() - startTime)); // write length, word count, and time to csv
                 writer.newLine();
             }
             writer.close();
@@ -93,7 +98,6 @@ public class trie {
         node.meaning = meaning;
     }
     
-
     static String findMeaning(TrieNode root, String key) {
         TrieNode node = root;
         int index;
@@ -142,6 +146,5 @@ public class trie {
         }
         return word; // return the original word if abbreviation not found
     }
-    
     
 } 
