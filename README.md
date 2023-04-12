@@ -1,4 +1,4 @@
 # milestone4
-Input files (dataset) are from the provided csv files on canvas, change the name of file to "file.csv" when running with both algorithms 
+Input files (dataset) are from the provided csv files on canvas, add the name of file "file.csv" for example when running with both algorithms. 
 
-If you open up the project entirely you need to use absolute pathing, if you open up the folder itselfm you can use relative pathing
+If you git clone and open up the project entirely you need to use absolute pathing for the abbreviations.txt and file.csv, if you open up the folder itself you can use relative pathing i.e., if you open up first_algo only you can use relative pathing for the file.csv and abbreviations.txt
