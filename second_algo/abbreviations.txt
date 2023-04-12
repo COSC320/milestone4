@@ -46,4 +46,3 @@ EULA,End-User License Agreement
 GDPR,General Data Protection Regulation
 DMCA,Digital Millennium Copyright Act
 API,Application Programming Interface
-W/, without

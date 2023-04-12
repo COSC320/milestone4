@@ -48,6 +48,7 @@ public class trie_graph {
                 if (values.length > 3) {
                     String abbreviation = values[3];
                     String meaning = values[4];
+                    
                     queue.add(abbreviationReplacer(abbreviation)); // add the value to the queue and replace abbreviations
                 }
             }
