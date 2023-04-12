@@ -14,7 +14,7 @@ public class first_implemenation {
         Queue<String> queue = new LinkedList<String>(); // create a queue to store the values
 
         try {
-            Scanner scanner = new Scanner(new File(""));    //input csv file, add file path here for the csv file
+            Scanner scanner = new Scanner(new File(""));    //input csv file, add absolute file path here for the csv file
             scanner.nextLine(); // ignore header
 
             while (scanner.hasNextLine()) {
@@ -56,7 +56,7 @@ public class first_implemenation {
 
     static String abbreviationReplacerHelper(String word) {
         try {
-            Scanner scanner = new Scanner(new File("")); //input abbreviations.txt 
+            Scanner scanner = new Scanner(new File("")); //add absolute path for abbreviations.txt 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] abbrev = line.split(",");
@@ -77,5 +77,4 @@ public class first_implemenation {
         }
         return word;
     }
-    
 }
