@@ -33,7 +33,7 @@ public class first_implemenation {
 
         // write output to file
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv"));   //output with meanings of abbreviations
+            BufferedWriter writer = new BufferedWriter(new FileWriter("output1.csv"));   //output with meanings of abbreviations
             while (!queue.isEmpty()) {
                 String output = queue.remove();
                 writer.write(output);
@@ -65,7 +65,7 @@ public class first_implemenation {
                     String expanded = abbrev[1].trim();
                     // check for variations of the abbreviation
                     String regex = abbreviation.replaceAll("\\.", "\\\\.").replaceAll("\\s", "\\\\s?");
-                    if (word.matches("(?i).*" + regex + ".*")) {
+                    if (word.matches(regex)) {
                         scanner.close();
                         return expanded;
                     }

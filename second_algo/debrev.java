@@ -11,11 +11,7 @@ public class debrev extends trie {
         try {
             Scanner scanner;
             scanner = new Scanner(
-                    new File("C:\\Users\\ASUS\\Documents\\COSC_320_piss\\milestone4\\second_algo\\abbreviations.txt")); // add
-                                                                                                                        // absolute
-                                                                                                                        // path
-                                                                                                                        // for
-                                                                                                                        // abbreviations.txt
+            new File("")); // add absolute path for abbreviations.txt
             int counter = 0;
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -38,18 +34,12 @@ public class debrev extends trie {
 
         try {
             Scanner scanner = new Scanner(
-                    new File("C:\\Users\\ASUS\\OneDrive\\Documents\\COSC 320\\merge-csv.com__643720c177381.csv")); // input
-                                                                                                                   // csv
-                                                                                                                   // file,
-            // add absolute
-            // file path here
-            // for the csv file
+            new File("")); // input add absolute file path here for the csv file
             scanner.nextLine(); // ignore header
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String[] values = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"); // regex to split the csv but ignore
-                                                                                   // the commas in that column
+                String[] values = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"); // regex to split the csv but ignore the commas in that column
 
                 if (values.length > 3) {
                     queue.add(abbreviationReplacer2(values[3])); // add the value to the queue and replace abbreviations
@@ -61,8 +51,7 @@ public class debrev extends trie {
             e.printStackTrace();
         }
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv")); // output with meanings of
-                                                                                      // abbreviations
+            BufferedWriter writer = new BufferedWriter(new FileWriter("output3.csv")); // output with meanings of abbreviations
             while (!queue.isEmpty()) {
                 String output = queue.remove();
                 writer.write(output);

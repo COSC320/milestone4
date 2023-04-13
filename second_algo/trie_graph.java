@@ -53,7 +53,7 @@ public class trie_graph extends trie{
         }
         try {
             
-            BufferedWriter writer = new BufferedWriter(new FileWriter("output.csv"));   //output with values for graph
+            BufferedWriter writer = new BufferedWriter(new FileWriter("output4.csv"));   //output with values for graph
             writer.write("String length, Word Count, Execution Time\n");
             while (!queue.isEmpty()) {
                 long startTime = System.nanoTime(); // start time of processing queue
